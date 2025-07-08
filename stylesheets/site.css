@@ -1890,12 +1890,13 @@ div.image {
   font-size: 12px;
   text-align: center; }
 
-.footer .inner-footer .footer-items p {
-  margin: 5px 0;
-  font-size: 12px;
-  color: #666; }
-  .footer .inner-footer .footer-items p:last-child {
+.version-info {
+  text-align: center;
+  padding: 20px 0; }
+  .version-info p {
+    margin: 0;
     font-size: 10px;
+    color: #999;
     opacity: 0.7; }
 
 a.fb {
