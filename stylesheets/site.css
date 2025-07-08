@@ -2387,3 +2387,83 @@ h1 {
     font-size: 1.3em;
     margin-top: 30px;
     margin-bottom: 15px; } }
+
+/* Mobile responsive styles for menu.html page */
+@media screen and (max-width: 660px) {
+  #menu .item {
+    display: block;
+    float: none;
+    margin: 40px auto;
+    width: 100%;
+    max-width: 300px; }
+  #menu .pizza-img {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    position: relative; }
+    #menu .pizza-img img.pizza {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      position: static;
+      float: none;
+      z-index: 1;
+      display: block;
+      margin: 0 auto; }
+    #menu .pizza-img div.item-description {
+      padding-top: 15px;
+      position: static; }
+      #menu .pizza-img div.item-description p {
+        text-align: center;
+        margin: 8px 0; }
+      #menu .pizza-img div.item-description .item-name {
+        font-size: 1em;
+        font-weight: 800; }
+      #menu .pizza-img div.item-description .item-price {
+        font-size: 1.1em;
+        font-weight: bold;
+        color: #333; } }
+
+@media screen and (max-width: 480px) {
+  #menu .item {
+    margin: 25px auto;
+    max-width: 280px; }
+  #menu .pizza-img img.pizza {
+    width: 120px;
+    height: 120px;
+    position: static;
+    float: none;
+    display: block;
+    margin: 0 auto; }
+  #menu .pizza-img div.item-description {
+    padding-top: 12px;
+    position: static; }
+    #menu .pizza-img div.item-description p {
+      margin: 6px 0; }
+    #menu .pizza-img div.item-description .item-name {
+      font-size: 0.9em;
+      line-height: 1.3;
+      padding: 0 5px; }
+    #menu .pizza-img div.item-description .item-price {
+      font-size: 1em;
+      margin-top: 8px; } }
+
+@media screen and (max-width: 390px) {
+  #menu .item {
+    margin: 20px auto;
+    max-width: 260px; }
+  #menu .pizza-img img.pizza {
+    width: 100px;
+    height: 100px;
+    position: static;
+    float: none;
+    display: block;
+    margin: 0 auto; }
+  #menu .pizza-img div.item-description {
+    padding-top: 10px;
+    position: static; }
+    #menu .pizza-img div.item-description .item-name {
+      font-size: 0.85em;
+      line-height: 1.3; }
+    #menu .pizza-img div.item-description .item-price {
+      font-size: 0.95em; } }
